@@ -1,0 +1,4583 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 899d0d3b-51be-4ba5-897b-7c21f50b538e)
+
+  (paper "A4")
+
+  (title_block
+    (title "UEXT-3TO5V")
+    (date "2025-02-28")
+    (rev "A")
+    (company "OLIMEX LTD.")
+    (comment 1 "https://www.olimex.com/")
+  )
+
+  (lib_symbols
+    (symbol "OLIMEX_Connectors:BH10S" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "CON" (at 0 10.16 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "P-B-V-10-LF" (at 0 -10.16 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "OLIMEX_Connectors-FP:GBH-254-SMT-10" (at 0 -12.7 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (at -0.2032 -1.1938 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Note" "PB-Free" (at 0 -17.78 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "Connector 2x5" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Connector 10 pins 2x5" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "BH10S_0_0"
+        (rectangle (start -3.1242 -4.8514) (end -0.5588 -5.3086)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start -3.1242 -2.3368) (end -0.5588 -2.794)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start -3.0988 0.254) (end -0.5334 -0.2032)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start -3.0734 2.7686) (end -0.508 2.3114)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start -3.048 5.334) (end -0.4826 4.8768)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.0226 -5.0038)
+            (xy -0.5842 -5.0038)
+            (xy -0.5842 -5.2324)
+            (xy -2.9972 -5.2578)
+            (xy -3.0226 -5.08)
+            (xy -0.7112 -5.08)
+            (xy -0.7112 -5.1562)
+            (xy -2.9972 -5.1054)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.0226 0.1016)
+            (xy -0.5842 0.1016)
+            (xy -0.5842 -0.127)
+            (xy -2.9972 -0.1524)
+            (xy -3.0226 0.0254)
+            (xy -0.7112 0.0254)
+            (xy -0.7112 -0.0508)
+            (xy -2.9972 0)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.9972 -2.4638)
+            (xy -0.5588 -2.4638)
+            (xy -0.5588 -2.6924)
+            (xy -2.9718 -2.7178)
+            (xy -2.9972 -2.54)
+            (xy -0.6858 -2.54)
+            (xy -0.6858 -2.6162)
+            (xy -2.9718 -2.5654)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.9718 2.667)
+            (xy -0.5334 2.667)
+            (xy -0.5334 2.4384)
+            (xy -2.9464 2.413)
+            (xy -2.9718 2.5908)
+            (xy -0.6604 2.5908)
+            (xy -0.6604 2.5146)
+            (xy -2.9464 2.5654)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.9464 5.2324)
+            (xy -0.508 5.2324)
+            (xy -0.508 5.0038)
+            (xy -2.921 4.9784)
+            (xy -2.9464 5.1562)
+            (xy -0.635 5.1562)
+            (xy -0.635 5.08)
+            (xy -2.921 5.1308)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.5588 0.1016)
+            (xy 2.9972 0.1016)
+            (xy 2.9972 -0.127)
+            (xy 0.5842 -0.1524)
+            (xy 0.5588 0.0254)
+            (xy 2.8702 0.0254)
+            (xy 2.8702 -0.0508)
+            (xy 0.5842 0)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.5842 -2.4384)
+            (xy 3.0226 -2.4384)
+            (xy 3.0226 -2.667)
+            (xy 0.6096 -2.6924)
+            (xy 0.5842 -2.5146)
+            (xy 2.8956 -2.5146)
+            (xy 2.8956 -2.5908)
+            (xy 0.6096 -2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.5842 2.667)
+            (xy 3.0226 2.667)
+            (xy 3.0226 2.4384)
+            (xy 0.6096 2.413)
+            (xy 0.5842 2.5908)
+            (xy 2.8956 2.5908)
+            (xy 2.8956 2.5146)
+            (xy 0.6096 2.5654)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -4.953)
+            (xy 3.0734 -4.953)
+            (xy 3.0734 -5.1816)
+            (xy 0.6604 -5.207)
+            (xy 0.635 -5.0292)
+            (xy 2.9464 -5.0292)
+            (xy 2.9464 -5.1054)
+            (xy 0.6604 -5.0546)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.6858 5.2324)
+            (xy 3.1242 5.2324)
+            (xy 3.1242 5.0038)
+            (xy 0.7112 4.9784)
+            (xy 0.6858 5.1562)
+            (xy 2.9972 5.1562)
+            (xy 2.9972 5.08)
+            (xy 0.7112 5.1308)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start 0.508 -2.3114) (end 3.0734 -2.7686)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start 0.508 0.2286) (end 3.0734 -0.2286)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start 0.5334 2.7686) (end 3.0988 2.3114)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start 0.5588 -4.8514) (end 3.1242 -5.3086)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start 0.5588 5.334) (end 3.1242 4.8768)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "BH10S_0_1"
+        (polyline
+          (pts
+            (xy -3.81 -5.08)
+            (xy -3.048 -5.08)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 -2.54)
+            (xy -3.048 -2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 0)
+            (xy -3.048 0)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 2.54)
+            (xy -3.048 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 5.08)
+            (xy -3.048 5.08)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 -5.08)
+            (xy 3.048 -5.08)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 -2.54)
+            (xy 3.048 -2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 0)
+            (xy 3.048 0)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 2.54)
+            (xy 3.048 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 5.08)
+            (xy 3.048 5.08)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "BH10S_1_1"
+        (rectangle (start -3.81 7.62) (end 3.81 -7.62)
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (pin passive line (at -7.62 5.08 0) (length 3.7084)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -5.08 180) (length 3.7084)
+          (name "10" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 5.08 180) (length 3.7084)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 2.54 0) (length 3.7084)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 2.54 180) (length 3.7084)
+          (name "4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 0 0) (length 3.7084)
+          (name "5" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 0 180) (length 3.7084)
+          (name "6" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 -2.54 0) (length 3.7084)
+          (name "7" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -2.54 180) (length 3.7084)
+          (name "8" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 -5.08 0) (length 3.7084)
+          (name "9" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OLIMEX_Diodes:D_Schottky" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D_Schottky" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "ki_fp_filters" "D-Pak_TO252AA Diode_* *SingleDiode *SingleDiode* *_Diode_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_Schottky_0_1"
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -0.635 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -1.905 -1.27)
+          )
+          (stroke (width 0.2032) (type solid))
+          (fill (type none))
+        )
+        (rectangle (start 1.27 1.27) (end 1.27 -1.27)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "D_Schottky_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016))))
+        )
+      )
+    )
+    (symbol "OLIMEX_IC:SN74LVC2T45DCUR(VSSOP-8)" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 7.62 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "SN74LVC2T45DCUR(VSSOP-8)" (at 0 -10.16 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "OLIMEX_IC-FP:VSSOP-8_Pitch-0.50mm_Pad-0.25mm_Dimensions-2.30x2.00x1.00mm" (at 0 -12.7 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "ki_keywords" "SN74LVC2T45DCUR" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SN74LVC2T45 Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SN74LVC2T45DCUR(VSSOP-8)_0_1"
+        (rectangle (start -7.62 5.08) (end 7.62 -7.62)
+          (stroke (width 0) (type solid))
+          (fill (type background))
+        )
+      )
+      (symbol "SN74LVC2T45DCUR(VSSOP-8)_1_1"
+        (text "VCCA supplies the \nDIR input circuit" (at 0 -1.016 900)
+          (effects (font (size 0.8128 0.8128)))
+        )
+        (pin power_in line (at -12.7 2.54 0) (length 5.08)
+          (name "VCCA" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -12.7 0 0) (length 5.08)
+          (name "A1" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -12.7 -2.54 0) (length 5.08)
+          (name "A2" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -12.7 -5.08 0) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 12.7 -5.08 180) (length 5.08)
+          (name "DIR" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 12.7 -2.54 180) (length 5.08)
+          (name "B2" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at 12.7 0 180) (length 5.08)
+          (name "B1" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 12.7 2.54 180) (length 5.08)
+          (name "VCCB" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OLIMEX_OTHER:Fiducial" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "FID" (at -1.905 3.175 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
+      (property "Value" "Fiducial" (at -3.81 -4.445 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
+      (property "Footprint" "OLIMEX_Other-FP:Fiducial1x3" (at 0.254 -5.715 0)
+        (effects (font (size 0.508 0.508)) hide)
+      )
+      (property "Datasheet" "" (at -1.27 0 90)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*TEST_PAD40/70/SQUARE* *TESTPAD50/80* *TESPAD28/40* *TESTPAD32/56* *TESTPAD34/60* *TESTPAD311_1* *TESTPAD40/66/SQUARE* *TESTPAD40/66* *TESTPAD* *TESTPAD2* *TESTPAD43/80* *SMD50/40* *TESTPAD50/80* *TESTPAD50/80_SQUARE* *TESTPAD60/110* *TESTPAD311* *SMD80/30* *SMD80/40* *SMD80/50* *TESTPAD80/130* *TESTPAD90/69* *SMD100/40* *TESTPAD100/150* *SMD250/80* *TESTPAD40/OBLONG* *TESTPAD_RPM* *TESTPAD60/90_WITHOUT_MASK*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Fiducial_0_1"
+        (polyline
+          (pts
+            (xy -1.778 -1.778)
+            (xy 1.778 1.778)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.778 -1.778)
+            (xy -1.778 1.778)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 0.635)
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (circle (center 0 0) (radius 2.54)
+          (stroke (width 0) (type solid))
+          (fill (type background))
+        )
+      )
+      (symbol "Fiducial_1_1"
+        (pin no_connect line (at 0 0 90) (length 0)
+          (name "FID*" (effects (font (size 1.27 1.27))))
+          (number "Fid1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OLIMEX_OTHER:Mounting_Hole_NPTH" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "MH" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Mounting_Hole_NPTH" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.27 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at -1.27 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Mounting_Hole_NPTH_0_1"
+        (polyline
+          (pts
+            (xy -1.905 1.27)
+            (xy 1.778 -1.524)
+          )
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 1.27)
+            (xy 1.905 -1.397)
+          )
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 1.524)
+            (xy 1.905 -1.27)
+          )
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 -1.778)
+            (xy 1.27 1.905)
+          )
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -1.905)
+            (xy 1.397 1.905)
+          )
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -1.905)
+            (xy 1.524 1.778)
+          )
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.1938 2.1844)
+            (xy -1.778 -1.778)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.778 -1.778)
+            (xy -2.2098 1.2192)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.778 1.778)
+            (xy -1.2192 -2.2098)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.1844 -1.1938)
+            (xy -1.778 1.778)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 2.54)
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 3.175)
+          (stroke (width 0) (type solid))
+          (fill (type background))
+        )
+      )
+      (symbol "Mounting_Hole_NPTH_1_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+      )
+    )
+    (symbol "OLIMEX_Power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OLIMEX_Power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OLIMEX_Power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OLIMEX_Power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 2.413 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 4.572 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 0.508 0.508))))
+          (number "1" (effects (font (size 0.508 0.508))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.905 2.54)
+            (xy 0 3.81)
+            (xy 1.905 2.54)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "OLIMEX_RCL:C" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "ki_fp_filters" "C? C_????_* C_???? SMD*_c Capacitor*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 2.54 270) (length 1.905)
+          (name "~" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016))))
+        )
+      )
+    )
+    (symbol "OLIMEX_RCL:L" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "L" (at -1.27 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "L" (at -1.27 -1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.27 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Datasheet" "" (at -1.27 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (symbol "L_0_1"
+        (arc (start -1.27 0) (mid -2.54 1.2645) (end -3.81 0)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (arc (start 1.27 0) (mid 0 1.2645) (end -1.27 0)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (arc (start 3.81 0) (mid 2.54 1.2645) (end 1.27 0)
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "L_1_1"
+        (pin passive line (at -5.08 0 0) (length 1.27)
+          (name "1" (effects (font (size 0.762 0.762))))
+          (number "1" (effects (font (size 0.762 0.762))))
+        )
+        (pin passive line (at 5.08 0 180) (length 1.27)
+          (name "2" (effects (font (size 0.762 0.762))))
+          (number "2" (effects (font (size 0.762 0.762))))
+        )
+      )
+    )
+    (symbol "OLIMEX_RCL:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 0 2.032 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 -1.778 0)
+        (effects (font (size 0.762 0.762)))
+      )
+      (property "Datasheet" "" (at 0 0 90)
+        (effects (font (size 0.762 0.762)))
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_* Resistor_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_0_1"
+        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at -3.81 0 0) (length 1.27)
+          (name "~" (effects (font (size 1.524 1.524))))
+          (number "1" (effects (font (size 1.524 1.524))))
+        )
+        (pin passive line (at 3.81 0 180) (length 1.27)
+          (name "~" (effects (font (size 1.524 1.524))))
+          (number "2" (effects (font (size 1.524 1.524))))
+        )
+      )
+    )
+    (symbol "OLIMEX_Regulators:MT3608(SOT23-6)" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -1.905 4.445 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
+      (property "Value" "MT3608(SOT23-6)" (at -6.985 -5.715 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
+      (property "Footprint" "OLIMEX_Regulators-FP:SOT23-6" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf" (at 2.54 -10.16 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Note" "PB-Free" (at 0 -12.7 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "DCDC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "High Efficiency 1.2MHz 2A Step Up Converter" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*SOT23-6*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MT3608(SOT23-6)_1_0"
+        (rectangle (start -2.54 3.81) (end 5.08 -3.81)
+          (stroke (width 0) (type solid))
+          (fill (type background))
+        )
+      )
+      (symbol "MT3608(SOT23-6)_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -2.54 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 3.81)
+            (xy 1.27 -1.27)
+            (xy 5.08 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (text "Current(Shutdown)=1uA(Max)" (at -0.508 0.889 0)
+          (effects (font (face "Liberation Serif") (size 0.1778 0.1778)))
+        )
+        (text "FB Input Bias Current=-50nA(min)" (at 3.175 -3.429 0)
+          (effects (font (face "Liberation Serif") (size 0.1778 0.1778)))
+        )
+        (text "FB Voltage=0.6V(Typical)" (at 3.175 -1.651 0)
+          (effects (font (face "Liberation Serif") (size 0.2286 0.2286)))
+        )
+        (text "Operating Input Voltage" (at -0.635 3.429 0)
+          (effects (font (face "Liberation Serif") (size 0.254 0.254)))
+        )
+        (text "Quiescent Current(PFM)=200uA(Max)" (at -0.635 -1.651 0)
+          (effects (font (face "Liberation Serif") (size 0.1524 0.1524)))
+        )
+        (text "Quiescent Current(PWM)=2.2mA(Max)" (at -0.635 -3.429 0)
+          (effects (font (face "Liberation Serif") (size 0.1524 0.1524)))
+        )
+        (text "Recommended Inductor values: up to 22uH.\nThe inductor should have low core loss at \n1.2MHz and low DCR for better efficiency." (at 3.175 3.429 0)
+          (effects (font (face "Liberation Serif") (size 0.127 0.127)))
+        )
+        (text "Recommended Input/Output \nCapacitors: 22uF/X5R(X7R)." (at 3.175 1.651 0)
+          (effects (font (face "Liberation Serif") (size 0.1778 0.1778) bold italic))
+        )
+        (text "Schottky diode is a good choice for MT3608\r\nbecause of its low forward voltage drop and \nfast reverses recovery." (at 3.175 0.889 0)
+          (effects (font (face "Liberation Serif") (size 0.127 0.127)))
+        )
+        (text "V(ENH)=1.5V(Min)\nV(ENL)=0.4V(Max)" (at -0.508 -0.889 0)
+          (effects (font (face "Liberation Serif") (size 0.1778 0.1778)))
+        )
+        (text "Vin=(2-24)VDC" (at -0.635 1.651 0)
+          (effects (font (face "Liberation Serif") (size 0.3048 0.3048) bold italic))
+        )
+        (text "Vout=0.6*(1+Rc/Rd)" (at 3.175 -0.889 0)
+          (effects (font (face "Liberation Serif") (size 0.2794 0.2794) bold italic))
+        )
+        (pin output line (at 7.62 2.54 180) (length 2.4892)
+          (name "LX" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016))))
+        )
+        (pin power_in line (at -5.08 -2.54 0) (length 2.4892)
+          (name "GND" (effects (font (size 0.889 0.889))))
+          (number "2" (effects (font (size 1.016 1.016))))
+        )
+        (pin input line (at 7.62 -2.54 180) (length 2.4892)
+          (name "FB" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016))))
+        )
+        (pin input line (at -5.08 0 0) (length 2.4892)
+          (name "EN" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016))))
+        )
+        (pin input line (at -5.08 2.54 0) (length 2.4892)
+          (name "IN" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016))))
+        )
+        (pin no_connect line (at 7.62 0 180) (length 2.4892)
+          (name "NC" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016))))
+        )
+      )
+    )
+    (symbol "OLIMEX_Transistors:N-MOS+DIOD" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "FET" (at 0 6.35 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "N-MOS+DIOD" (at 0 -6.35 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "OLIMEX_Transistors-FP:SOT23" (at 0 -10.16 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (at -1.27 0 90)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "ki_keywords" "N-MOS" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "N-MOS+DIOD_0_0"
+        (polyline
+          (pts
+            (xy -2.54 -2.413)
+            (xy -2.54 2.54)
+          )
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 3.556)
+            (xy -1.27 -3.556)
+          )
+          (stroke (width 0.508) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.254 0.508)
+            (xy -0.9906 0.0254)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 0.762)
+            (xy 2.413 0.762)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 0.762)
+            (xy 1.524 2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy -1.27 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy -1.27 2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0.0254)
+            (xy 0.254 0.0254)
+            (xy 0.254 -2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.254 -0.381)
+            (xy -0.9906 0.0254)
+            (xy -0.9398 0)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (text "D" (at -0.3302 3.302 0)
+          (effects (font (size 1.016 1.016)))
+        )
+        (text "G" (at -3.429 0 0)
+          (effects (font (size 1.016 1.016)))
+        )
+        (text "S" (at -0.3048 -3.4036 0)
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (symbol "N-MOS+DIOD_1_0"
+        (circle (center -0.635 0) (radius 4.191)
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy 1.524 0.762)
+            (xy 0.508 -0.508)
+            (xy 2.413 -0.508)
+            (xy 1.524 0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -2.54)
+            (xy 1.524 -0.508)
+            (xy 0.508 -0.508)
+            (xy 2.413 -0.508)
+            (xy 1.524 0.762)
+            (xy 0.508 -0.508)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type none))
+        )
+        (circle (center 0.254 -2.54) (radius 0.254)
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (circle (center 1.524 -2.54) (radius 0.254)
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (circle (center 1.524 2.54) (radius 0.254)
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (text "N-MOS" (at -1.905 -0.0254 900)
+          (effects (font (face "Liberation Serif") (size 0.635 0.635) bold italic))
+        )
+      )
+      (symbol "N-MOS+DIOD_1_1"
+        (pin input line (at -5.08 -2.54 0) (length 2.54)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (bus_alias "Main-BUS" (members "GPIO0\\UART0_TX" "GPIO8\\QMI_CS1n" "GPIO9\\SPI1_CSn\\SD_DAT0" "GPIO10\\SPI1_SCK\\SD_CLK" "GPIO11\\SPI1_TX\\SD_CMD" "HDMI_CK-" "HDMI_CK+" "HDMI_D0-" "HDMI_D0+" "HDMI_D1-" "HDMI_D1+" "HDMI_D2-" "HDMI_D2+" "GPIO20\\HDMI_CEC" "GPIO21\\HDMI_HPD" "GPIO22\\CODEC_PWR_DIS#" "GPIO23\\GPOUT1\\CODEC_MCLK" "GPIO24\\SPI1_RX\\SD_DAT0" "GPIO25\\User_Led" "GPIO26\\PWM5_A\\PWM_AUDIO-L" "GPIO27\\PWM5_B\\PWM_AUDIO-R" "GPIO28\\SPI1_RX\\CODEC_ASDOUT" "GPIO29\\SPI1_CSn\\CODEC_LRCK" "SWCLK" "SWDIO" "GPIO1\\UART0_RX" "GPIO2\\I2C1_SDA" "GPIO3\\I2C1_SCL" "GPIO4\\SPI0_RX(MISO)" "GPIO5\\SPI0_CSn(CS#)" "GPIO6\\SPI0_SCK(SCK)" "GPIO7\\SPI0_TX(MOSI)" "GPIO30\\SPI1_SCK\\CODEC_SCLK" "GPIO31\\SPI1_TX\\CODEC_DSDIN" "GPIO32\\I2C0_SDA" "GPIO33\\I2C0_SCL" "GPIO34\\PWM9_A\\AMP_VOL" "GPIO35\\AMP_SHDN" "GPIO36\\I2C0_SDA" "GPIO37\\I2C0_SCL" "GPIO38\\UART1_TX" "GPIO39\\UART1_RX" "GPIO40\\ADC0" "GPIO41\\ADC1\\SD_CD#" "GPIO42\\SPI1_SCK" "GPIO43\\SPI1_TX" "GPIO44\\SPI1_RX" "GPIO45\\SPI1_CSn" "GPIO46\\PWR_SENS" "GPIO47\\BAT_SENS"))
+  (bus_alias "USB-BUS" (members "USB_D-" "USB_D+"))
+  (junction (at 91.44 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid 0ee56c8f-3c9a-4069-b848-1be681a43286)
+  )
+  (junction (at 200.66 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid 1373a7bb-c6ba-4456-935f-e284795f3764)
+  )
+  (junction (at 99.06 66.04) (diameter 0) (color 0 0 0 0)
+    (uuid 30715b46-0ffb-4d93-9a86-c2d79bb95150)
+  )
+  (junction (at 200.66 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 52c9934b-9ec0-4bce-88e2-37e50e0ad322)
+  )
+  (junction (at 124.46 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid 66a795ef-07ee-4fc0-b578-0db6d5240134)
+  )
+  (junction (at 241.3 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 67e3f909-a44d-4dae-a343-cf0052a81263)
+  )
+  (junction (at 71.12 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid 7f03ff38-8bf2-48bb-b520-721a0a9e5a22)
+  )
+  (junction (at 200.66 111.76) (diameter 0) (color 0 0 0 0)
+    (uuid 7f359564-0815-41f2-87ad-b06d033dc9d7)
+  )
+  (junction (at 93.98 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid 8a403ecf-b0fe-4f43-b0c7-29ad42205c5d)
+  )
+  (junction (at 93.98 127) (diameter 0) (color 0 0 0 0)
+    (uuid 8c3fea79-4328-4054-afab-71a4dbc0c876)
+  )
+  (junction (at 111.76 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid 94ebcc23-aadf-4519-abc3-3e696cb6be28)
+  )
+  (junction (at 71.12 33.02) (diameter 0) (color 0 0 0 0)
+    (uuid 9d98adc3-da4b-43c6-a49a-239014fb9119)
+  )
+  (junction (at 116.84 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid b21accbd-5d12-48a2-88d1-2c0902858da6)
+  )
+  (junction (at 91.44 33.02) (diameter 0) (color 0 0 0 0)
+    (uuid b68ef50a-3f34-4a56-95d1-94351a48ec95)
+  )
+  (junction (at 91.44 104.14) (diameter 0) (color 0 0 0 0)
+    (uuid b6eb7fc1-a0ab-4abb-8c51-141a3fa1bf65)
+  )
+  (junction (at 241.3 111.76) (diameter 0) (color 0 0 0 0)
+    (uuid bd605f3e-f73d-4f22-8407-8c56318cebe6)
+  )
+  (junction (at 71.12 144.78) (diameter 0) (color 0 0 0 0)
+    (uuid cc9d0d8d-cbf1-4f43-b512-19caf28d1baf)
+  )
+  (junction (at 124.46 129.54) (diameter 0) (color 0 0 0 0)
+    (uuid cf6643ae-fc79-4933-95ed-6292d3d3aa8f)
+  )
+  (junction (at 66.04 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid d1e7437f-8208-4034-9b1c-8e319718116a)
+  )
+  (junction (at 93.98 137.16) (diameter 0) (color 0 0 0 0)
+    (uuid d3a4026b-19c4-4166-811f-d1cb4a249d07)
+  )
+  (junction (at 58.42 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid d88729af-b3a0-487f-8b9d-e75f9da3529a)
+  )
+  (junction (at 241.3 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid efa4086b-7e2c-4e3c-8931-7f0519c1fc28)
+  )
+  (junction (at 53.34 132.08) (diameter 0) (color 0 0 0 0)
+    (uuid facb8e2c-4928-4ce6-ad1c-219171cbac6b)
+  )
+
+  (wire (pts (xy 233.68 58.42) (xy 241.3 58.42))
+    (stroke (width 0) (type default))
+    (uuid 0260ce2d-b668-4c7f-b1b3-6a9dd1ec9e39)
+  )
+  (wire (pts (xy 93.98 137.16) (xy 88.9 137.16))
+    (stroke (width 0) (type default))
+    (uuid 03129a49-93dc-40c7-9f1a-9af22453f42f)
+  )
+  (wire (pts (xy 111.76 127) (xy 111.76 132.08))
+    (stroke (width 0) (type default))
+    (uuid 03371ee2-2ec8-42fb-a34e-fd70e0e48d13)
+  )
+  (wire (pts (xy 213.36 27.94) (xy 203.2 27.94))
+    (stroke (width 0) (type default))
+    (uuid 050c70c6-8d5a-46d0-9a8b-5019e16aea31)
+  )
+  (wire (pts (xy 116.84 132.08) (xy 111.76 132.08))
+    (stroke (width 0) (type default))
+    (uuid 05299183-cf23-4833-b6a6-b08590df7c50)
+  )
+  (wire (pts (xy 76.2 63.5) (xy 76.2 68.58))
+    (stroke (width 0) (type default))
+    (uuid 06b483e6-f983-49a4-a23c-87369f9d4198)
+  )
+  (wire (pts (xy 81.28 101.6) (xy 81.28 104.14))
+    (stroke (width 0) (type default))
+    (uuid 08c1f461-d373-4fa6-8f46-7dae122e6d36)
+  )
+  (wire (pts (xy 43.18 43.18) (xy 48.26 43.18))
+    (stroke (width 0) (type default))
+    (uuid 0bf44a84-7af0-49bd-aabb-cba10a003c07)
+  )
+  (wire (pts (xy 106.68 132.08) (xy 111.76 132.08))
+    (stroke (width 0) (type default))
+    (uuid 0c8e0e49-cd18-45d8-ac8f-bdc94d48605f)
+  )
+  (wire (pts (xy 43.18 127) (xy 43.18 132.08))
+    (stroke (width 0) (type default))
+    (uuid 0d514e1a-6483-4fcc-8596-1f259fda5e78)
+  )
+  (wire (pts (xy 236.22 81.28) (xy 241.3 81.28))
+    (stroke (width 0) (type default))
+    (uuid 0f0feaac-a2fa-42b5-97c3-542ebeae5bc1)
+  )
+  (wire (pts (xy 238.76 25.4) (xy 238.76 27.94))
+    (stroke (width 0) (type default))
+    (uuid 10dd5bad-20e6-4e61-a835-e4255df3859b)
+  )
+  (wire (pts (xy 200.66 111.76) (xy 205.74 111.76))
+    (stroke (width 0) (type default))
+    (uuid 118aa21c-aa57-4392-be84-d6e06b879088)
+  )
+  (wire (pts (xy 99.06 63.5) (xy 99.06 66.04))
+    (stroke (width 0) (type default))
+    (uuid 14c15a98-0d8f-49cb-91d1-caad125102cf)
+  )
+  (wire (pts (xy 241.3 50.8) (xy 243.84 50.8))
+    (stroke (width 0) (type default))
+    (uuid 1f952a82-d52f-4829-a501-159bfee02713)
+  )
+  (wire (pts (xy 233.68 91.44) (xy 254 91.44))
+    (stroke (width 0) (type default))
+    (uuid 202d1ca8-87ec-4beb-9d77-c2ddab01f798)
+  )
+  (wire (pts (xy 88.9 33.02) (xy 91.44 33.02))
+    (stroke (width 0) (type default))
+    (uuid 216e9c32-75eb-4424-b236-1faf1292bd68)
+  )
+  (wire (pts (xy 91.44 33.02) (xy 91.44 43.18))
+    (stroke (width 0) (type default))
+    (uuid 22510683-3ed1-4524-b9b0-7ab135efbd25)
+  )
+  (wire (pts (xy 71.12 134.62) (xy 71.12 132.08))
+    (stroke (width 0) (type default))
+    (uuid 24f1075b-4bf9-407c-8dbd-951748d95707)
+  )
+  (polyline (pts (xy 177.8 162.56) (xy 281.94 162.56))
+    (stroke (width 0) (type dash))
+    (uuid 25891b8e-397b-4468-92f5-f0aa76c93ca6)
+  )
+
+  (wire (pts (xy 187.96 38.1) (xy 213.36 38.1))
+    (stroke (width 0) (type default))
+    (uuid 28e301c8-d350-4bf6-8002-d4058780ed7d)
+  )
+  (wire (pts (xy 233.68 127) (xy 243.84 127))
+    (stroke (width 0) (type default))
+    (uuid 2a2687aa-1840-4650-a505-7834a2a7429e)
+  )
+  (wire (pts (xy 210.82 50.8) (xy 213.36 50.8))
+    (stroke (width 0) (type default))
+    (uuid 2b01464e-e0cc-47af-89af-097f7214e590)
+  )
+  (wire (pts (xy 76.2 134.62) (xy 71.12 134.62))
+    (stroke (width 0) (type default))
+    (uuid 2f08b6b3-5f87-488a-a15c-2bbd5b4da0af)
+  )
+  (wire (pts (xy 121.92 129.54) (xy 124.46 129.54))
+    (stroke (width 0) (type default))
+    (uuid 2f14e42b-93b9-44dc-b2eb-f86f164832b1)
+  )
+  (wire (pts (xy 213.36 35.56) (xy 187.96 35.56))
+    (stroke (width 0) (type default))
+    (uuid 33655129-792e-40a6-8826-eaf7e239be51)
+  )
+  (wire (pts (xy 71.12 144.78) (xy 71.12 147.32))
+    (stroke (width 0) (type default))
+    (uuid 39035272-1ed0-40f0-96ad-f2e826a860fc)
+  )
+  (wire (pts (xy 88.9 35.56) (xy 129.54 35.56))
+    (stroke (width 0) (type default))
+    (uuid 39804260-67ba-4cdc-9de8-94123340a237)
+  )
+  (wire (pts (xy 200.66 50.8) (xy 198.12 50.8))
+    (stroke (width 0) (type default))
+    (uuid 39941c08-650a-464c-aa41-248ad7218197)
+  )
+  (wire (pts (xy 124.46 127) (xy 124.46 129.54))
+    (stroke (width 0) (type default))
+    (uuid 3aadd83a-0a25-4218-848e-51d30f55a204)
+  )
+  (wire (pts (xy 228.6 33.02) (xy 266.7 33.02))
+    (stroke (width 0) (type default))
+    (uuid 3ad770ce-f474-4c53-88e9-151c0f50bb4d)
+  )
+  (wire (pts (xy 91.44 43.18) (xy 99.06 43.18))
+    (stroke (width 0) (type default))
+    (uuid 3da469bc-2920-4e90-b174-e7adb5574ba4)
+  )
+  (wire (pts (xy 91.44 81.28) (xy 119.38 81.28))
+    (stroke (width 0) (type default))
+    (uuid 3e7b6543-9fcc-4339-997e-8f4ab8bf3597)
+  )
+  (wire (pts (xy 73.66 27.94) (xy 63.5 27.94))
+    (stroke (width 0) (type default))
+    (uuid 40489edb-d1db-410a-987c-21503bce25e7)
+  )
+  (wire (pts (xy 213.36 30.48) (xy 187.96 30.48))
+    (stroke (width 0) (type default))
+    (uuid 4345fc01-8fdf-4f65-9508-44e823b34de5)
+  )
+  (wire (pts (xy 93.98 132.08) (xy 88.9 132.08))
+    (stroke (width 0) (type default))
+    (uuid 444edbd7-49f1-4afc-ac8c-8d6a1b00abd0)
+  )
+  (wire (pts (xy 124.46 144.78) (xy 124.46 147.32))
+    (stroke (width 0) (type default))
+    (uuid 450d3570-c0a2-4162-a975-7a1895a9de5a)
+  )
+  (wire (pts (xy 236.22 111.76) (xy 241.3 111.76))
+    (stroke (width 0) (type default))
+    (uuid 46971cf5-8d5d-4b54-b31e-b6e1f37ac415)
+  )
+  (wire (pts (xy 106.68 127) (xy 93.98 127))
+    (stroke (width 0) (type default))
+    (uuid 46f92cbf-bead-436d-bde1-2a611cdaed8c)
+  )
+  (wire (pts (xy 208.28 88.9) (xy 200.66 88.9))
+    (stroke (width 0) (type default))
+    (uuid 47cf6f4a-074b-4268-a6fd-1bf145742e42)
+  )
+  (wire (pts (xy 208.28 96.52) (xy 198.12 96.52))
+    (stroke (width 0) (type default))
+    (uuid 4a6b8644-7f19-47b6-ad91-d01b89dab2b5)
+  )
+  (wire (pts (xy 55.88 43.18) (xy 71.12 43.18))
+    (stroke (width 0) (type default))
+    (uuid 527551bc-6ab7-482b-bf05-0fe706516d99)
+  )
+  (wire (pts (xy 66.04 132.08) (xy 66.04 139.7))
+    (stroke (width 0) (type default))
+    (uuid 5627014a-6f5a-4315-8afc-8f08e9108415)
+  )
+  (polyline (pts (xy 147.32 165.1) (xy 147.32 193.04))
+    (stroke (width 0) (type dash))
+    (uuid 570c02e9-6d66-4366-8f3f-81e6e027673d)
+  )
+  (polyline (pts (xy 177.8 137.16) (xy 281.94 137.16))
+    (stroke (width 0) (type dash))
+    (uuid 5bb91ca2-52b5-4718-b4ce-f0582eaea011)
+  )
+
+  (wire (pts (xy 66.04 127) (xy 66.04 132.08))
+    (stroke (width 0) (type default))
+    (uuid 5d25a918-9d08-419b-a62f-7701d76ddb07)
+  )
+  (wire (pts (xy 93.98 132.08) (xy 93.98 127))
+    (stroke (width 0) (type default))
+    (uuid 60a87e90-e563-4d7e-88c7-e838afb7e083)
+  )
+  (wire (pts (xy 200.66 88.9) (xy 200.66 81.28))
+    (stroke (width 0) (type default))
+    (uuid 60f58c66-871b-41c6-9dde-f72101fec485)
+  )
+  (wire (pts (xy 88.9 38.1) (xy 129.54 38.1))
+    (stroke (width 0) (type default))
+    (uuid 6392f222-aeff-4e0e-9d1f-9594ad2cc37a)
+  )
+  (wire (pts (xy 66.04 144.78) (xy 66.04 147.32))
+    (stroke (width 0) (type default))
+    (uuid 64bddd87-06dd-4bf4-8c36-b38c60ea2a78)
+  )
+  (wire (pts (xy 210.82 81.28) (xy 213.36 81.28))
+    (stroke (width 0) (type default))
+    (uuid 66ae4746-d701-464a-8570-cce727c48a85)
+  )
+  (wire (pts (xy 124.46 132.08) (xy 116.84 132.08))
+    (stroke (width 0) (type default))
+    (uuid 672aefdf-fb30-4810-876d-f373d180ae95)
+  )
+  (wire (pts (xy 58.42 132.08) (xy 53.34 132.08))
+    (stroke (width 0) (type default))
+    (uuid 68cd90f9-7cce-45ff-9f31-f07e70d7f529)
+  )
+  (wire (pts (xy 233.68 60.96) (xy 254 60.96))
+    (stroke (width 0) (type default))
+    (uuid 695725e0-3132-4fbf-953a-e7b291456349)
+  )
+  (wire (pts (xy 208.28 66.04) (xy 198.12 66.04))
+    (stroke (width 0) (type default))
+    (uuid 6c7ae793-609d-4ab1-9610-c6d5bfb7cd71)
+  )
+  (wire (pts (xy 33.02 38.1) (xy 73.66 38.1))
+    (stroke (width 0) (type default))
+    (uuid 6e9331b0-079d-4445-a19f-25f7d10e6354)
+  )
+  (wire (pts (xy 228.6 50.8) (xy 231.14 50.8))
+    (stroke (width 0) (type default))
+    (uuid 6fe45e9c-ea8b-4331-b446-8555dcad3ddc)
+  )
+  (wire (pts (xy 99.06 66.04) (xy 99.06 86.36))
+    (stroke (width 0) (type default))
+    (uuid 762de619-8a81-42fa-a6a7-98d0fa88aa3b)
+  )
+  (wire (pts (xy 91.44 66.04) (xy 99.06 66.04))
+    (stroke (width 0) (type default))
+    (uuid 76ae8499-35c0-4df6-8ab1-cd5393fbcd55)
+  )
+  (wire (pts (xy 241.3 111.76) (xy 243.84 111.76))
+    (stroke (width 0) (type default))
+    (uuid 76f2db6e-4f0d-4353-9af1-8adb4efa95da)
+  )
+  (wire (pts (xy 228.6 35.56) (xy 266.7 35.56))
+    (stroke (width 0) (type default))
+    (uuid 788b0ace-c2a2-43df-b946-939972a6408b)
+  )
+  (wire (pts (xy 116.84 132.08) (xy 116.84 139.7))
+    (stroke (width 0) (type default))
+    (uuid 78c0d2aa-7367-473c-9f7b-fdf30d2b1543)
+  )
+  (wire (pts (xy 91.44 86.36) (xy 91.44 91.44))
+    (stroke (width 0) (type default))
+    (uuid 7b52a0ab-7ab7-4579-a1ea-6632dbc02055)
+  )
+  (wire (pts (xy 53.34 127) (xy 53.34 132.08))
+    (stroke (width 0) (type default))
+    (uuid 7de9410d-47e5-4e93-9133-63fdb6e205e1)
+  )
+  (wire (pts (xy 45.72 81.28) (xy 76.2 81.28))
+    (stroke (width 0) (type default))
+    (uuid 8087bf3a-6692-4693-94b2-7c8fd2a2cf2c)
+  )
+  (wire (pts (xy 73.66 35.56) (xy 33.02 35.56))
+    (stroke (width 0) (type default))
+    (uuid 808ea366-203f-4351-9be2-7d1eee3e77fc)
+  )
+  (wire (pts (xy 58.42 144.78) (xy 58.42 147.32))
+    (stroke (width 0) (type default))
+    (uuid 829cc774-7d7f-4fe6-a268-caf37dfa6135)
+  )
+  (wire (pts (xy 233.68 124.46) (xy 254 124.46))
+    (stroke (width 0) (type default))
+    (uuid 837d011f-560a-4da0-91a4-71aaa93c2852)
+  )
+  (wire (pts (xy 185.42 93.98) (xy 208.28 93.98))
+    (stroke (width 0) (type default))
+    (uuid 859ace89-9760-4d7e-a71b-92b7d7b64cab)
+  )
+  (wire (pts (xy 185.42 121.92) (xy 208.28 121.92))
+    (stroke (width 0) (type default))
+    (uuid 85c9a82e-1650-4fd3-85d4-3760c05719ba)
+  )
+  (wire (pts (xy 233.68 63.5) (xy 254 63.5))
+    (stroke (width 0) (type default))
+    (uuid 85f9c9dd-48b3-4218-a383-40f702f0aecc)
+  )
+  (wire (pts (xy 187.96 33.02) (xy 213.36 33.02))
+    (stroke (width 0) (type default))
+    (uuid 8627ab92-aced-45c5-9be7-7fc4a65f564d)
+  )
+  (wire (pts (xy 200.66 111.76) (xy 198.12 111.76))
+    (stroke (width 0) (type default))
+    (uuid 8b0017cf-1b42-49de-9b23-aff7a27720bc)
+  )
+  (wire (pts (xy 208.28 127) (xy 198.12 127))
+    (stroke (width 0) (type default))
+    (uuid 8c64d075-4902-4be5-bfe7-b0cf7f7021c5)
+  )
+  (wire (pts (xy 111.76 137.16) (xy 106.68 137.16))
+    (stroke (width 0) (type default))
+    (uuid 8d144bd0-efcd-41b7-a8fb-836c3bf6234a)
+  )
+  (wire (pts (xy 71.12 33.02) (xy 73.66 33.02))
+    (stroke (width 0) (type default))
+    (uuid 8d90b5ba-7bd5-4999-a2f0-649f1c71cb5a)
+  )
+  (wire (pts (xy 111.76 132.08) (xy 111.76 137.16))
+    (stroke (width 0) (type default))
+    (uuid 8f22b76a-2765-4ff1-97f3-607b5404fb6d)
+  )
+  (wire (pts (xy 58.42 132.08) (xy 58.42 139.7))
+    (stroke (width 0) (type default))
+    (uuid 935bd9cd-2326-4cb6-9d10-89dfe79836b8)
+  )
+  (wire (pts (xy 185.42 63.5) (xy 208.28 63.5))
+    (stroke (width 0) (type default))
+    (uuid 941f1238-d1fb-4e1c-afba-e1b7a71cb547)
+  )
+  (wire (pts (xy 76.2 88.9) (xy 76.2 91.44))
+    (stroke (width 0) (type default))
+    (uuid 977ec222-110a-4d9c-9123-5dfd3763bb68)
+  )
+  (wire (pts (xy 81.28 78.74) (xy 81.28 81.28))
+    (stroke (width 0) (type default))
+    (uuid 984ca9b3-d348-44c9-b898-1122122d4402)
+  )
+  (wire (pts (xy 208.28 119.38) (xy 200.66 119.38))
+    (stroke (width 0) (type default))
+    (uuid 993997ab-616c-456c-a28b-318069fcc669)
+  )
+  (wire (pts (xy 76.2 132.08) (xy 71.12 132.08))
+    (stroke (width 0) (type default))
+    (uuid 9a454a4d-af67-4be3-a19d-65fd16a55245)
+  )
+  (polyline (pts (xy 38.1 165.1) (xy 38.1 193.04))
+    (stroke (width 0) (type dash))
+    (uuid 9a8f3ec1-d07a-41f2-b054-eb0b51da4c43)
+  )
+
+  (wire (pts (xy 91.44 86.36) (xy 99.06 86.36))
+    (stroke (width 0) (type default))
+    (uuid 9bc8e2d9-723c-4274-9dfe-cdf22f833690)
+  )
+  (wire (pts (xy 241.3 88.9) (xy 241.3 81.28))
+    (stroke (width 0) (type default))
+    (uuid 9be8d48f-3755-48ff-a9ec-c995aa2a26df)
+  )
+  (wire (pts (xy 99.06 137.16) (xy 93.98 137.16))
+    (stroke (width 0) (type default))
+    (uuid 9da431fc-2bcb-41a0-abb8-51a1821466d2)
+  )
+  (wire (pts (xy 91.44 76.2) (xy 91.44 81.28))
+    (stroke (width 0) (type default))
+    (uuid 9f1f9d41-f9b6-4908-af5a-cd4a4180b3bb)
+  )
+  (wire (pts (xy 91.44 81.28) (xy 81.28 81.28))
+    (stroke (width 0) (type default))
+    (uuid a13cd80f-fd89-4668-b16f-eed9a4402a20)
+  )
+  (wire (pts (xy 228.6 27.94) (xy 238.76 27.94))
+    (stroke (width 0) (type default))
+    (uuid a18336aa-3446-478b-9602-c58eac5a3332)
+  )
+  (wire (pts (xy 43.18 142.24) (xy 43.18 147.32))
+    (stroke (width 0) (type default))
+    (uuid a20eed59-8447-46a4-88e9-20dc55a813bc)
+  )
+  (wire (pts (xy 76.2 101.6) (xy 76.2 104.14))
+    (stroke (width 0) (type default))
+    (uuid a3c2b108-8795-4ba5-8eac-051f62cc6b99)
+  )
+  (wire (pts (xy 71.12 33.02) (xy 71.12 43.18))
+    (stroke (width 0) (type default))
+    (uuid a546d2c3-adb7-490e-b2b2-c6651eed51df)
+  )
+  (wire (pts (xy 88.9 30.48) (xy 129.54 30.48))
+    (stroke (width 0) (type default))
+    (uuid a60e8914-f06b-41ee-a780-fcbcef817ba4)
+  )
+  (wire (pts (xy 200.66 81.28) (xy 198.12 81.28))
+    (stroke (width 0) (type default))
+    (uuid a7ae4577-f613-4eff-9e51-b8255137c0a1)
+  )
+  (wire (pts (xy 93.98 137.16) (xy 93.98 144.78))
+    (stroke (width 0) (type default))
+    (uuid a8bce6fc-03a2-4204-a22d-60616229e485)
+  )
+  (wire (pts (xy 99.06 132.08) (xy 93.98 132.08))
+    (stroke (width 0) (type default))
+    (uuid ab57e9c9-3e72-40af-8022-363f5f41df26)
+  )
+  (wire (pts (xy 76.2 78.74) (xy 76.2 81.28))
+    (stroke (width 0) (type default))
+    (uuid abff3b84-30ab-4a8b-88ac-4b237ae6ee7f)
+  )
+  (wire (pts (xy 88.9 27.94) (xy 99.06 27.94))
+    (stroke (width 0) (type default))
+    (uuid acc051fe-2a90-4ab5-9d72-163e9c3b9a71)
+  )
+  (wire (pts (xy 228.6 38.1) (xy 266.7 38.1))
+    (stroke (width 0) (type default))
+    (uuid ae472c0f-e7b6-4c14-acf5-f9e98f4c6ae9)
+  )
+  (wire (pts (xy 63.5 25.4) (xy 63.5 27.94))
+    (stroke (width 0) (type default))
+    (uuid aefa63a6-4bc5-4cb3-b250-9953bc9fb6da)
+  )
+  (wire (pts (xy 124.46 129.54) (xy 124.46 132.08))
+    (stroke (width 0) (type default))
+    (uuid b0628e9a-69a5-4c48-b3eb-0410d1d9aefd)
+  )
+  (wire (pts (xy 228.6 111.76) (xy 231.14 111.76))
+    (stroke (width 0) (type default))
+    (uuid b2c737ba-79d6-4bac-b28b-b1eaec932497)
+  )
+  (wire (pts (xy 73.66 30.48) (xy 33.02 30.48))
+    (stroke (width 0) (type default))
+    (uuid b4b2e29e-de93-4e87-a764-290a0ec0bac2)
+  )
+  (wire (pts (xy 233.68 66.04) (xy 243.84 66.04))
+    (stroke (width 0) (type default))
+    (uuid b6c17ecd-2d6f-4c68-b070-e453d16ed219)
+  )
+  (polyline (pts (xy 38.1 165.1) (xy 147.32 165.1))
+    (stroke (width 0) (type dash))
+    (uuid b92d696b-4c4f-4b20-9ea0-5b235bc08676)
+  )
+  (polyline (pts (xy 38.1 193.04) (xy 147.32 193.04))
+    (stroke (width 0) (type dash))
+    (uuid bb1ae86d-b84f-4771-a943-78f8ce46f4ca)
+  )
+
+  (wire (pts (xy 228.6 30.48) (xy 266.7 30.48))
+    (stroke (width 0) (type default))
+    (uuid bce3ac51-e055-40c3-8d14-e8a3d120ce9b)
+  )
+  (wire (pts (xy 185.42 124.46) (xy 208.28 124.46))
+    (stroke (width 0) (type default))
+    (uuid be6d1842-4ceb-4439-940a-5f7b5559968a)
+  )
+  (wire (pts (xy 71.12 137.16) (xy 71.12 144.78))
+    (stroke (width 0) (type default))
+    (uuid c2ea0d93-472a-4b40-ad4b-0fa06a26cb02)
+  )
+  (wire (pts (xy 66.04 132.08) (xy 58.42 132.08))
+    (stroke (width 0) (type default))
+    (uuid c32421af-dadb-48d1-b60f-7a7dbf57b2ec)
+  )
+  (wire (pts (xy 208.28 58.42) (xy 200.66 58.42))
+    (stroke (width 0) (type default))
+    (uuid c4287f20-16f5-4a88-805c-d2ae138b9c7f)
+  )
+  (wire (pts (xy 93.98 127) (xy 86.36 127))
+    (stroke (width 0) (type default))
+    (uuid c4ae35ce-9b29-4819-9f32-a0bbeb3837ab)
+  )
+  (wire (pts (xy 185.42 91.44) (xy 208.28 91.44))
+    (stroke (width 0) (type default))
+    (uuid c6ea021c-8b30-4709-acc2-5fc0d9997f06)
+  )
+  (wire (pts (xy 233.68 119.38) (xy 241.3 119.38))
+    (stroke (width 0) (type default))
+    (uuid c7869bd2-ed27-4054-a5a3-ce9b5e762ff0)
+  )
+  (wire (pts (xy 71.12 132.08) (xy 66.04 132.08))
+    (stroke (width 0) (type default))
+    (uuid d2844a34-28ff-4b84-b870-17f441bc17d7)
+  )
+  (wire (pts (xy 53.34 132.08) (xy 43.18 132.08))
+    (stroke (width 0) (type default))
+    (uuid d31d50b6-b27e-4610-8317-2d83a37741c1)
+  )
+  (wire (pts (xy 233.68 121.92) (xy 254 121.92))
+    (stroke (width 0) (type default))
+    (uuid d3bba927-29a5-4fc5-bb33-e2357e3dfe70)
+  )
+  (wire (pts (xy 106.68 43.18) (xy 119.38 43.18))
+    (stroke (width 0) (type default))
+    (uuid d49040db-57a8-44f0-a8c8-d19ba2fe584d)
+  )
+  (wire (pts (xy 93.98 144.78) (xy 86.36 144.78))
+    (stroke (width 0) (type default))
+    (uuid d49c6c33-ed88-4f66-8f73-aa180a3f25e2)
+  )
+  (wire (pts (xy 91.44 99.06) (xy 91.44 104.14))
+    (stroke (width 0) (type default))
+    (uuid d5b76729-bcd3-4d34-ba9a-b346c7ebc27b)
+  )
+  (wire (pts (xy 241.3 81.28) (xy 243.84 81.28))
+    (stroke (width 0) (type default))
+    (uuid d66bdc6c-bf66-4980-a8e7-67ade9cdef51)
+  )
+  (polyline (pts (xy 281.94 137.16) (xy 281.94 162.56))
+    (stroke (width 0) (type dash))
+    (uuid dadc2daa-3e02-486f-9d4e-92f5a0b032e3)
+  )
+
+  (wire (pts (xy 78.74 144.78) (xy 71.12 144.78))
+    (stroke (width 0) (type default))
+    (uuid db835377-9b6e-4c67-abd3-c3dc5ad7be12)
+  )
+  (wire (pts (xy 76.2 137.16) (xy 71.12 137.16))
+    (stroke (width 0) (type default))
+    (uuid e1274c5f-e398-4919-9a0e-adec90926f3d)
+  )
+  (wire (pts (xy 91.44 33.02) (xy 129.54 33.02))
+    (stroke (width 0) (type default))
+    (uuid e155d772-ea38-41f5-a719-6766379233d4)
+  )
+  (wire (pts (xy 241.3 119.38) (xy 241.3 111.76))
+    (stroke (width 0) (type default))
+    (uuid e1d005b6-3fcf-4da1-b393-afd833e40526)
+  )
+  (wire (pts (xy 66.04 127) (xy 76.2 127))
+    (stroke (width 0) (type default))
+    (uuid e29cdb49-5042-4eb4-b71e-751cc3fe06d4)
+  )
+  (wire (pts (xy 236.22 50.8) (xy 241.3 50.8))
+    (stroke (width 0) (type default))
+    (uuid e40d4f86-ae74-415d-adab-2c940e393da9)
+  )
+  (wire (pts (xy 99.06 25.4) (xy 99.06 27.94))
+    (stroke (width 0) (type default))
+    (uuid e4765f2c-c821-4d52-b52c-97f220cbc446)
+  )
+  (wire (pts (xy 233.68 96.52) (xy 243.84 96.52))
+    (stroke (width 0) (type default))
+    (uuid e5c3c5af-7b86-49a1-bd4e-1170cfb5777b)
+  )
+  (wire (pts (xy 233.68 88.9) (xy 241.3 88.9))
+    (stroke (width 0) (type default))
+    (uuid e6683da3-d640-4b9f-8831-691ee9a4878d)
+  )
+  (wire (pts (xy 81.28 104.14) (xy 91.44 104.14))
+    (stroke (width 0) (type default))
+    (uuid e6711677-7768-42d0-8b9e-a271c3fbc47f)
+  )
+  (wire (pts (xy 33.02 33.02) (xy 71.12 33.02))
+    (stroke (width 0) (type default))
+    (uuid e92de893-6ea4-4b27-a849-3b582fc6d9e3)
+  )
+  (wire (pts (xy 233.68 93.98) (xy 254 93.98))
+    (stroke (width 0) (type default))
+    (uuid e9ab4c86-d4f4-4b83-8f52-adf2c29a6466)
+  )
+  (wire (pts (xy 241.3 58.42) (xy 241.3 50.8))
+    (stroke (width 0) (type default))
+    (uuid eaa0dd28-9660-4264-b90f-36f50fb6b99e)
+  )
+  (wire (pts (xy 200.66 119.38) (xy 200.66 111.76))
+    (stroke (width 0) (type default))
+    (uuid ef3c90c0-b23c-4f51-b304-35c5342004e3)
+  )
+  (wire (pts (xy 116.84 144.78) (xy 116.84 147.32))
+    (stroke (width 0) (type default))
+    (uuid ef743883-7555-457e-9eb9-59304b732bf0)
+  )
+  (wire (pts (xy 124.46 132.08) (xy 124.46 139.7))
+    (stroke (width 0) (type default))
+    (uuid efa584a1-ae01-48d7-974b-be222dae00be)
+  )
+  (wire (pts (xy 203.2 25.4) (xy 203.2 27.94))
+    (stroke (width 0) (type default))
+    (uuid f24d7ca5-19fc-4e44-9a62-a4d4ad5a55e9)
+  )
+  (wire (pts (xy 91.44 104.14) (xy 119.38 104.14))
+    (stroke (width 0) (type default))
+    (uuid f34908ae-b876-4587-81ae-abb405232a35)
+  )
+  (wire (pts (xy 185.42 60.96) (xy 208.28 60.96))
+    (stroke (width 0) (type default))
+    (uuid f621cba0-a572-473a-9b6a-369c163be2b4)
+  )
+  (wire (pts (xy 228.6 81.28) (xy 231.14 81.28))
+    (stroke (width 0) (type default))
+    (uuid f7f3c67f-65fd-452a-b85c-2c9da38d1516)
+  )
+  (wire (pts (xy 91.44 66.04) (xy 91.44 68.58))
+    (stroke (width 0) (type default))
+    (uuid f8a9fbc5-0941-424c-bff4-323aa791ad9d)
+  )
+  (polyline (pts (xy 177.8 137.16) (xy 177.8 162.56))
+    (stroke (width 0) (type dash))
+    (uuid fa940106-74ea-435a-a0c2-392760aff1f3)
+  )
+
+  (wire (pts (xy 45.72 104.14) (xy 76.2 104.14))
+    (stroke (width 0) (type default))
+    (uuid faa585ef-bfce-4945-828c-6058b45cd32d)
+  )
+  (wire (pts (xy 200.66 81.28) (xy 205.74 81.28))
+    (stroke (width 0) (type default))
+    (uuid fadafc29-ff5a-49d1-8191-47f6628d61e7)
+  )
+  (wire (pts (xy 210.82 111.76) (xy 213.36 111.76))
+    (stroke (width 0) (type default))
+    (uuid fd31be6d-f67f-448a-9060-298ad1a4ef03)
+  )
+  (wire (pts (xy 200.66 50.8) (xy 205.74 50.8))
+    (stroke (width 0) (type default))
+    (uuid fd32ee2f-b9dc-44cc-8cf6-06bbb525eeba)
+  )
+  (wire (pts (xy 200.66 58.42) (xy 200.66 50.8))
+    (stroke (width 0) (type default))
+    (uuid fef56261-4916-4f2f-8049-04bdd9a1b709)
+  )
+
+  (image (at 250.19 173.609)
+    (uuid 09ea958e-5403-4626-aa04-c32a45ff8f63)
+    (data
+      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
+    )
+  )
+  (image (at 196.215 171.069)
+    (uuid 8f0102d1-0ebf-463a-ad33-6280f27bf896)
+    (data
+      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
+    )
+  )
+
+  (text "DIR=0, direction B to A" (at 233.68 134.62 0)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 77b51f3b-e347-4b0b-8055-ef8c630e0e84)
+  )
+  (text "Rd" (at 81.534 145.796 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8f0d7a7a-850f-45aa-8667-9cc4e2bb7009)
+  )
+  (text "Mounting Holes" (at 198.12 147.32 0)
+    (effects (font (size 5.08 5.08) (thickness 1.016) bold italic) (justify left bottom))
+    (uuid 958218b3-eb2a-41c6-9d31-4d233c1c5e31)
+  )
+  (text "Fiducials" (at 71.12 175.26 0)
+    (effects (font (size 5.08 5.08) (thickness 1.016) bold italic) (justify left bottom))
+    (uuid a148ce5b-f01c-43fa-9e7f-05251eff73c6)
+  )
+  (text "Rc" (at 101.6 138.176 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid acd71068-043e-4f89-a31f-c574272878b0)
+  )
+  (text "Vout=0.6*(1+Rc/Rd)" (at 90.805 148.59 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
+    (uuid bda34a30-069d-4123-8707-f0eaa3410cf8)
+  )
+
+  (label "UART_RX_3.3V" (at 116.84 30.48 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 0f7ae3c9-767d-47ac-9221-f746b8eff7e3)
+  )
+  (label "CS_5V" (at 251.46 121.92 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 14609dda-e01f-4d6e-be79-139ce632b944)
+  )
+  (label "MOSI_3.3V" (at 116.84 35.56 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 1d130183-49b5-4478-a723-7fcd7552d1fb)
+  )
+  (label "MISO_5V" (at 251.46 91.44 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 239ecfc4-237e-4504-a49b-83d74adb9521)
+  )
+  (label "SCK_5V" (at 251.46 124.46 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 42c8f9e9-15f6-47d1-a3b0-8ad36070ea6c)
+  )
+  (label "UART_TX_3.3V" (at 190.5 60.96 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 47f9696a-4528-4fc2-a5c4-e4061cd2fd7c)
+  )
+  (label "UART_RX_5V" (at 261.62 30.48 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 4d72ef09-be01-4c2b-86db-1d0f2d1d9765)
+  )
+  (label "UART_RX_5V" (at 251.46 93.98 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 4fafb189-6d00-4bdb-aa06-853efca23d3d)
+  )
+  (label "CS_3.3V" (at 116.84 38.1 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 52da100f-8169-4eae-8877-67b989e74df0)
+  )
+  (label "UART_RX_3.3V" (at 190.5 93.98 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 5ab8ae75-40db-4089-aac8-0d8735e42f7c)
+  )
+  (label "I2C_SDA_3.3V" (at 116.84 33.02 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 6a16864d-4cb4-4b51-9a29-ce43293120dd)
+  )
+  (label "UART_TX_3.3V" (at 45.72 30.48 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 6d0592fd-5d3d-4c6c-9a01-d68d5df4df30)
+  )
+  (label "SCK_3.3V" (at 190.5 124.46 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 6ec4cb50-1d3f-4ab0-8d9b-6bcfc3f9eafa)
+  )
+  (label "CS_3.3V" (at 190.5 121.92 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 72c5f7d2-750b-44f4-9d40-2cdbd5d9d918)
+  )
+  (label "MOSI_5V" (at 251.46 63.5 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid 7620f3fd-4caf-4235-9503-3d489397f139)
+  )
+  (label "MISO_5V" (at 195.58 35.56 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 82900945-8de2-4a21-a643-06693222dceb)
+  )
+  (label "I2C_SCL_3.3V" (at 50.8 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 8ac3ec4b-5d31-4e1a-b373-bb519bd5ca3c)
+  )
+  (label "UART_TX_5V" (at 195.58 30.48 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 8f3abc84-971d-4113-9ff9-391011d9357d)
+  )
+  (label "I2C_SDA_3.3V" (at 50.8 104.14 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 944303fa-056e-40c1-8074-08a2599411a4)
+  )
+  (label "I2C_SDA_5V" (at 101.6 104.14 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 967fbc4a-3049-4c9e-9e00-83834dadba47)
+  )
+  (label "I2C_SCL_5V" (at 101.6 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid 98e29e44-b868-403a-a6e8-da498d6b3267)
+  )
+  (label "LX2" (at 104.14 127 180)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid a295a562-fb7d-49ab-a8af-512a3ad2270c)
+    (property "Netclass" "Power" (at 105.41 128.27 0)
+      (effects (font (size 1.27 1.27) italic) (justify right))
+    )
+  )
+  (label "SCK_5V" (at 195.58 38.1 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid a672fd9f-d497-46a6-9fb7-96d5c9919301)
+  )
+  (label "SCK_3.3V" (at 45.72 38.1 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid ada5f3b7-8b1e-4f94-86dd-2062157cbed5)
+  )
+  (label "I2C_SCL_5V" (at 195.58 33.02 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid bc9e48b2-69b1-4d57-959f-44f4f20a663b)
+  )
+  (label "MISO_3.3V" (at 190.5 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid bd9ff16d-a0fb-4abf-bfbf-5c435ae95394)
+  )
+  (label "UART_TX_5V" (at 251.46 60.96 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid bde69309-50cc-48d7-b144-ee36f2bf1dbb)
+  )
+  (label "I2C_SCL_3.3V" (at 45.72 33.02 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid c8c21142-0bcd-4b81-abf6-4cf786e9f059)
+  )
+  (label "MOSI_5V" (at 261.62 35.56 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid d7a37368-d7b6-470a-8d7a-857efe9ecc21)
+  )
+  (label "I2C_SDA_5V" (at 261.62 33.02 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid d844e8ea-fd88-4416-9d98-10c604c201a6)
+  )
+  (label "MISO_3.3V" (at 45.72 35.56 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid e11422f4-4380-43e3-9b7b-55a613fbb298)
+  )
+  (label "MOSI_3.3V" (at 190.5 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify left bottom))
+    (uuid e3f909fd-52ab-42d2-902e-f0559929eda5)
+  )
+  (label "CS_5V" (at 261.62 38.1 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) bold) (justify right bottom))
+    (uuid fca30de8-f1f6-4fe5-b75f-6dfd24700591)
+  )
+
+  (netclass_flag "" (length 2.54) (shape round) (at 121.92 129.54 90)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid ca87ff9e-388b-4131-bbd4-295ef182564a)
+    (property "Netclass" "Power" (at 118.11 129.54 0)
+      (effects (font (size 1.27 1.27) italic) (justify right))
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_OTHER:Fiducial") (at 50.8 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-00005af57b2c)
+    (property "Reference" "FID1" (at 54.0512 184.2516 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 54.0512 186.563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_Other-FP:Fiducial1x3" (at 43.434 187.325 0)
+      (effects (font (size 0.508 0.508)) hide)
+    )
+    (property "Datasheet" "" (at 49.53 185.42 90)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "Fid1" (uuid 29a768a6-e99b-49e2-8f6e-4679eb3cef71))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "FID1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_OTHER:Fiducial") (at 76.2 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-00005af5872d)
+    (property "Reference" "FID2" (at 79.4512 184.2516 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 79.4512 186.563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_Other-FP:Fiducial1x3_Paste" (at 68.834 187.325 0)
+      (effects (font (size 0.508 0.508)) hide)
+    )
+    (property "Datasheet" "" (at 74.93 185.42 90)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "Fid1" (uuid 84dd2adf-a361-41cd-9d86-25873cc4eb22))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "FID2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_OTHER:Fiducial") (at 104.14 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-00005afc6f83)
+    (property "Reference" "FID3" (at 107.3912 184.2516 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 107.3912 186.563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_Other-FP:Fiducial1x3" (at 96.774 187.325 0)
+      (effects (font (size 0.508 0.508)) hide)
+    )
+    (property "Datasheet" "" (at 102.87 185.42 90)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "Fid1" (uuid abb2c838-6042-4141-9cea-f73a0993ce8e))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "FID3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_OTHER:Fiducial") (at 129.54 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-00005faaf1b6)
+    (property "Reference" "FID4" (at 132.7912 184.2516 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 132.7912 186.563 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_Other-FP:Fiducial1x3_Paste" (at 122.174 187.325 0)
+      (effects (font (size 0.508 0.508)) hide)
+    )
+    (property "Datasheet" "" (at 128.27 185.42 90)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "Fid1" (uuid 66cefe7c-bd26-4ff6-b9b8-dfa3643a8311))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "FID4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_OTHER:Mounting_Hole_NPTH") (at 190.5 154.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-000063d64adb)
+    (property "Reference" "MH1" (at 188.595 149.86 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Drill(3.3mm)/Restrict(7.00mm)" (at 179.07 160.02 0)
+      (effects (font (size 1.016 1.016)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_Other-FP:Mounting_Hole_Drill-3.3mm_Clerance-7mm" (at 189.23 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 189.23 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "MH1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_OTHER:Mounting_Hole_NPTH") (at 215.9 154.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-000063e59c7a)
+    (property "Reference" "MH2" (at 213.995 149.86 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Drill(3.3mm)/Restrict(7.00mm)" (at 204.47 160.02 0)
+      (effects (font (size 1.016 1.016)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_Other-FP:Mounting_Hole_Drill-3.3mm_Clerance-7mm" (at 214.63 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 214.63 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "MH2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_OTHER:Mounting_Hole_NPTH") (at 241.3 154.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-000063ed2510)
+    (property "Reference" "MH3" (at 239.395 149.86 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Drill(3.3mm)/Restrict(7.00mm)" (at 229.87 160.02 0)
+      (effects (font (size 1.016 1.016)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_Other-FP:Mounting_Hole_Drill-3.3mm_Clerance-7mm" (at 240.03 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 240.03 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "MH3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_OTHER:Mounting_Hole_NPTH") (at 266.7 154.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-000070e5c679)
+    (property "Reference" "MH4" (at 264.795 149.86 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Drill(3.3mm)/Restrict(7.00mm)" (at 255.27 160.02 0)
+      (effects (font (size 1.016 1.016)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_Other-FP:Mounting_Hole_Drill-3.3mm_Clerance-7mm" (at 265.43 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 265.43 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "MH4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:R") (at 91.44 72.39 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 06a73ed4-7f9f-490e-b2e2-6114340ceb9d)
+    (property "Reference" "R3" (at 88.9 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2.2k/R0402" (at 93.98 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS" (at 93.218 72.39 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (at 91.44 72.39 90)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Sim.Enable" "0" (at 91.44 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 362141a6-5ab0-4175-b8e8-73b982156959))
+    (pin "2" (uuid c14f1df9-3d11-400c-b457-d98202805d61))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Connectors:BH10S") (at 220.98 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 08b6e57e-1621-43d6-b62a-cad29c1b7d5b)
+    (property "Reference" "UEXT_5V0" (at 220.98 24.13 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "P-B-V-10-LF" (at 220.98 41.91 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "OLIMEX_Connectors-FP:GBH-254-SMT-10" (at 220.7768 34.2138 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 220.7768 34.2138 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Note" "PB-Free" (at 220.98 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d14487d5-dfd0-4d8c-a955-9ea33f7944bc))
+    (pin "10" (uuid ae36fa60-b47c-4d73-807c-cc50d482e8cd))
+    (pin "2" (uuid f36f8fb5-ce02-49b9-9a87-c03bc6fd7c21))
+    (pin "3" (uuid c47c7d0c-de66-43ee-afb4-cd3d8fd4ac87))
+    (pin "4" (uuid e00d1d14-bd48-4b0b-8685-03d937ad4436))
+    (pin "5" (uuid 9f983896-2162-4668-b696-6cae2584df47))
+    (pin "6" (uuid 56c753ef-f930-43c6-9f0d-4bcd148ffc82))
+    (pin "7" (uuid 56fa4703-dc68-4bfb-91b3-8c777c343b3b))
+    (pin "8" (uuid 2d27a249-7672-4676-a20a-7d445fe6a9d2))
+    (pin "9" (uuid b681cbf7-5dcc-448c-b1c9-22e073396692))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "UEXT_5V0") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Transistors:N-MOS+DIOD") (at 78.74 73.66 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0df931db-5caa-454c-a513-e6a67ca08016)
+    (property "Reference" "FET1" (at 72.39 76.2 0)
+      (effects (font (size 1.524 1.524)) (justify right))
+    )
+    (property "Value" "BSS138(SOT23-3)" (at 84.455 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "OLIMEX_Transistors-FP:SOT23" (at 85.0392 73.66 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 78.74 72.39 90)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid c6ad3a12-f823-48c4-8f93-7f34d2f6f6d1))
+    (pin "2" (uuid d41d690f-d8b8-4f18-b563-f6978c9cd422))
+    (pin "3" (uuid 19fe3992-92dc-4295-9d2f-faee0d9d2fe6))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "FET1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 66.04 147.32 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0f57f759-a79a-4887-9eea-063e078f634c)
+    (property "Reference" "#PWR031" (at 66.04 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 66.04 150.876 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 66.04 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 66.04 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid bfab9a28-27a6-4e23-9765-448dc9f40c67))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 198.12 81.28 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 129c26ac-31ce-4ef1-ba34-06f6d123399a)
+    (property "Reference" "#PWR015" (at 201.93 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 191.77 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 198.12 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 198.12 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 72de16cf-c081-46c9-90a7-f2376e2cfe0c))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 43.18 127 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1427417e-e595-47f7-bda4-c72086e5c3d7)
+    (property "Reference" "#PWR026" (at 43.18 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 43.18 123.19 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 43.18 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 43.18 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid c8fcf127-c0de-4d34-b8f5-bea531997ab1))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 116.84 147.32 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1789b7d6-ee8d-4216-bf0c-5450b630ab42)
+    (property "Reference" "#PWR033" (at 116.84 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 116.84 150.876 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 116.84 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 116.84 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 1c738514-bf90-4502-b41f-99953520231a))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR033") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:PWR_FLAG") (at 111.76 127 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 195aed5f-f473-43a3-b4dc-7966ef028248)
+    (property "Reference" "#FLG02" (at 111.76 124.587 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 111.76 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 111.76 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 111.76 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 9b08c5a4-4b1e-4f3e-9833-3cd4f2fa2349))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 76.2 88.9 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1b6c1372-69f8-4341-8ca2-6df79c020453)
+    (property "Reference" "#PWR019" (at 76.2 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 76.2 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 76.2 88.9 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 76.2 88.9 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 1791723b-6381-448b-8434-1ff5cf53106b))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_IC:SN74LVC2T45DCUR(VSSOP-8)") (at 220.98 121.92 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1c4a5e7a-be5e-414a-84d3-5db959ca2fb5)
+    (property "Reference" "U3" (at 220.98 115.57 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "SN74LVC2T45DCUR(VSSOP-8)" (at 220.98 130.81 0)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "OLIMEX_IC-FP:VSSOP-8_Pitch-0.50mm_Pad-0.25mm_Dimensions-2.30x2.00x1.00mm" (at 220.98 134.62 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 220.98 121.92 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 93e7ee3f-4282-4e0b-9b11-80a96792760f))
+    (pin "2" (uuid 17bd64bf-e687-434d-a01c-e9b9108f4d0d))
+    (pin "3" (uuid 86f43d9b-9986-4349-918e-d3fedefe5c38))
+    (pin "4" (uuid 1bf08608-06dc-4cc4-bd4f-73991cb8e96a))
+    (pin "5" (uuid 7e57e32e-5dce-4e9c-b465-f48977c7cb09))
+    (pin "6" (uuid a2c92028-262d-4bff-bcbf-08baf7b065cb))
+    (pin "7" (uuid 7b66483c-d262-437d-885e-f2eeb1c4c935))
+    (pin "8" (uuid 04877ff8-0200-40f5-92b4-a7c3194a86ed))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "U3") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "U19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 198.12 96.52 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 22e01230-f4aa-416b-8858-25617f13eda2)
+    (property "Reference" "#PWR020" (at 191.77 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 193.04 96.52 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 198.12 96.52 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 198.12 96.52 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 052d8f12-0973-4e64-b079-b38d8e8c797c))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 43.18 147.32 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2301600e-c2ca-4c79-89c3-d4b41b15c6bf)
+    (property "Reference" "#PWR035" (at 43.18 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 43.18 150.876 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 43.18 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 43.18 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid a8399397-445c-4884-96b4-80b11d0d1f3f))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR035") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 63.5 25.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 240759e0-a311-4dc7-aff2-1f6fc0af09f9)
+    (property "Reference" "#PWR01" (at 63.5 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 63.5 21.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 63.5 25.4 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 63.5 25.4 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 3d244a5c-10aa-4a89-887e-69634355f5fe))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:R") (at 91.44 95.25 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 29f7f3d9-b6d0-458f-9f15-05ab97e223b9)
+    (property "Reference" "R4" (at 88.9 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2.2k/R0402" (at 93.98 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS" (at 93.218 95.25 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (at 91.44 95.25 90)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Sim.Enable" "0" (at 91.44 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 27b68706-1ac0-44ab-baf9-1e06c2dbcc77))
+    (pin "2" (uuid f4c307c0-4a54-41da-8a11-5eb287916bd8))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 238.76 25.4 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3593c04d-b726-46d1-ba3a-91334cab4197)
+    (property "Reference" "#PWR04" (at 238.76 19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 238.76 21.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 238.76 25.4 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 238.76 25.4 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid f8bc879b-1ca4-432f-b2ef-f80903fa9715))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 233.68 50.8 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 425e4e98-5f03-463d-8097-ad4ecccfc716)
+    (property "Reference" "C2" (at 237.49 49.53 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100nF/10V/10%/X7R/C0402" (at 233.68 53.34 90)
+      (effects (font (size 0.508 0.508)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0402_5MIL_DWS" (at 233.68 50.8 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 233.68 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Fieldname 1" "Value 1" (at 233.68 50.8 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname2" "Value2" (at 233.68 50.8 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname3" "Value3" (at 233.68 50.8 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid d6b098d1-dba2-457a-8afa-92957b9cb3af))
+    (pin "2" (uuid f4ee3d48-1816-4b15-81da-6656fb8661ce))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00006080c7b3"
+          (reference "C?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "C91") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+5V") (at 243.84 81.28 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 444510f5-f71d-4701-931c-45d588989afd)
+    (property "Reference" "#PWR018" (at 240.03 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 248.92 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 243.84 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 243.84 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid fb0bd37c-ceae-46eb-a746-058c4754c8d6))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 58.42 147.32 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4cafbaa3-b6a1-4136-933d-48701d125333)
+    (property "Reference" "#PWR030" (at 58.42 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 58.42 150.876 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 58.42 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 58.42 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid bba4d056-0546-42fb-85cc-ea2be5dd0c5a))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Transistors:N-MOS+DIOD") (at 78.74 96.52 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4d28691c-bff0-4908-81e3-a3e671b5f03e)
+    (property "Reference" "FET2" (at 72.39 99.06 0)
+      (effects (font (size 1.524 1.524)) (justify right))
+    )
+    (property "Value" "BSS138(SOT23-3)" (at 84.455 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "OLIMEX_Transistors-FP:SOT23" (at 85.0392 96.52 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 78.74 95.25 90)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid c5b1fbd1-30c2-483e-91fe-59136924919f))
+    (pin "2" (uuid ec068433-1777-42a3-96bd-e0ca7f03ecf1))
+    (pin "3" (uuid f81c9e19-a34c-42aa-a68e-62e0fa580d49))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "FET2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 208.28 111.76 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4e2c39e2-3e03-4ea7-9aeb-3f48683803bd)
+    (property "Reference" "C5" (at 204.47 110.49 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100nF/10V/10%/X7R/C0402" (at 208.28 114.3 90)
+      (effects (font (size 0.508 0.508)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0402_5MIL_DWS" (at 208.28 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 208.28 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Fieldname 1" "Value 1" (at 208.28 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname2" "Value2" (at 208.28 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname3" "Value3" (at 208.28 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid a3db078e-eb01-482c-aabc-2f22a059e768))
+    (pin "2" (uuid a3338181-16df-4bb8-bda9-03104d4fe105))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00006080c7b3"
+          (reference "C?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "C90") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 228.6 111.76 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4f3a73d8-cacc-45f9-85c4-8af6d3a383c1)
+    (property "Reference" "#PWR024" (at 222.25 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 224.155 111.76 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 228.6 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 228.6 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 90b22a0b-e995-4567-8d30-62e75bbed5c9))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00005f8f69d2"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "#PWR0224") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 43.18 43.18 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 56c782d0-d634-4c88-962e-927610aa5264)
+    (property "Reference" "#PWR05" (at 46.99 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 37.465 43.18 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 43.18 43.18 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 43.18 43.18 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 0d89f5a3-3318-403a-a46a-c47e88651ed6))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:PWR_FLAG") (at 53.34 127 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 581d2a31-0b8e-436b-99eb-d65e10f9f8f9)
+    (property "Reference" "#FLG01" (at 53.34 124.587 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 53.34 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 53.34 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 53.34 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid fe8e3d4d-bd45-4d9d-b3dc-e6f7efb00c4a))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Connectors:BH10S") (at 81.28 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5b52b9b3-e544-4a3d-a3ec-2db5bbec218e)
+    (property "Reference" "UEXT_3V3" (at 81.28 24.13 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "P-B-V-10-LF" (at 81.28 41.91 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "OLIMEX_Connectors-FP:GBH-254-SMT-10" (at 81.0768 34.2138 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 81.0768 34.2138 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Note" "PB-Free" (at 81.28 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 31f2cd2d-d41b-4930-825c-6165faeecd9b))
+    (pin "10" (uuid d48b8c2d-a367-4c96-8461-205fede58391))
+    (pin "2" (uuid 8c60fd37-4c8b-4c6c-8e95-8583bedef93a))
+    (pin "3" (uuid 5c16dbe3-45f5-4158-9678-548dc31fe461))
+    (pin "4" (uuid 71ae2056-f58a-47c9-9b2e-43470adbaa30))
+    (pin "5" (uuid e0a6765c-0ef8-4f8c-b552-88ac40ca332d))
+    (pin "6" (uuid 422d6089-1fcc-40a4-95ce-89924c9ed00b))
+    (pin "7" (uuid 249498a9-4e3e-47a0-9172-17acf418cc4f))
+    (pin "8" (uuid ce1867c8-6860-4dea-89e6-6f8ece04ce15))
+    (pin "9" (uuid 4a7fe1bd-bfb6-4715-9f07-77435c3f0d0c))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "UEXT_3V3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+5V") (at 124.46 127 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5df75eb3-033b-494d-805f-85616f5c3739)
+    (property "Reference" "#PWR027" (at 124.46 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 124.46 123.444 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 124.46 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 124.46 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid a8381d1c-c4c1-4e50-9589-ebc2aa2992e0))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_IC:SN74LVC2T45DCUR(VSSOP-8)") (at 220.98 60.96 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 617c9d44-a4d2-4083-bda4-081098b9c725)
+    (property "Reference" "U1" (at 220.98 54.61 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "SN74LVC2T45DCUR(VSSOP-8)" (at 220.98 69.85 0)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "OLIMEX_IC-FP:VSSOP-8_Pitch-0.50mm_Pad-0.25mm_Dimensions-2.30x2.00x1.00mm" (at 220.98 73.66 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 220.98 60.96 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 5d3d3b72-cc50-4010-9855-1570e3006cc8))
+    (pin "2" (uuid 16c2b9bc-cd60-4d32-a775-48db3fdd287f))
+    (pin "3" (uuid ce360502-dc31-4968-9736-7e983dd7c295))
+    (pin "4" (uuid ba7c7f68-71af-4039-bef7-02c7b1fdf61f))
+    (pin "5" (uuid 57dc3b37-94fe-453a-90e7-0793791ba063))
+    (pin "6" (uuid 4d41307c-7da4-430a-9390-6916b9d980cb))
+    (pin "7" (uuid 38430369-792c-4c0a-81d9-6fda027b439f))
+    (pin "8" (uuid 31f79488-ce36-4dd7-a20b-7e8c827e0453))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "U1") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "U19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 213.36 50.8 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6b92f07e-f306-4c71-99c4-f4677e4304df)
+    (property "Reference" "#PWR08" (at 219.71 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 217.805 50.8 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 213.36 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 213.36 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid e5202901-f855-43c9-9a7c-0c4701c16945))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00005f8f69d2"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "#PWR0223") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 198.12 127 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6c87a8be-159a-4edf-bde9-b86c03700ae1)
+    (property "Reference" "#PWR028" (at 191.77 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 193.04 127 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 198.12 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 198.12 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 0f4bb253-95d3-4e5b-a7fd-cd69cda3bfa8))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 243.84 96.52 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6ea2d6c4-8f2b-49fb-97c6-347480548ed4)
+    (property "Reference" "#PWR021" (at 250.19 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 248.92 96.52 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 243.84 96.52 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 243.84 96.52 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 6511e196-a723-43ff-a1fe-e042b7ceef08))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:R") (at 102.87 137.16 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6eb43650-2c0d-44c9-83a0-a77f1982c7c0)
+    (property "Reference" "R5" (at 102.87 139.7 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "8.25k/1%/R0402" (at 102.87 142.24 0)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS" (at 104.648 137.16 90)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (at 102.87 137.16 0)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Sim.Enable" "0" (at 102.87 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7b53226a-e163-494d-9075-1a97b34136e2))
+    (pin "2" (uuid f222cced-d6bb-4811-a596-8088ccfd33e4))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 76.2 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 70dda191-2dc1-416e-a62e-8859701d319f)
+    (property "Reference" "#PWR011" (at 76.2 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 76.2 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 76.2 63.5 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 76.2 63.5 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 0e0bdb77-f576-4ca9-8302-de921140109a))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 71.12 147.32 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 72de8ae2-6e89-495e-9630-b79fd6db4ef3)
+    (property "Reference" "#PWR032" (at 71.12 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 71.12 151.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 71.12 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 71.12 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid e46ffc29-6526-4eed-a164-c6da012c504b))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR032") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 119.38 43.18 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 73cbe2b6-6156-4e81-a7f3-e3d3711efbf9)
+    (property "Reference" "#PWR06" (at 115.57 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 125.095 43.18 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 119.38 43.18 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 119.38 43.18 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 117e269b-4c87-4784-9d2f-c01a4e6babe2))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 198.12 50.8 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 807b8d34-8ef2-4e52-a1fb-73421b162065)
+    (property "Reference" "#PWR07" (at 201.93 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 191.77 50.8 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 198.12 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 198.12 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid f292e28e-8429-4c06-988d-30e468936bdf))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 213.36 111.76 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 82041a68-bd5d-464e-ab1e-ef33f8978725)
+    (property "Reference" "#PWR023" (at 219.71 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 217.805 111.76 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 213.36 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 213.36 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 25d07041-b99c-4a2e-89e1-caaf94d7068e))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00005f8f69d2"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "#PWR0223") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 208.28 50.8 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 83011700-4de8-435f-ae97-30e5b7756ac1)
+    (property "Reference" "C1" (at 204.47 49.53 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100nF/10V/10%/X7R/C0402" (at 208.28 53.34 90)
+      (effects (font (size 0.508 0.508)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0402_5MIL_DWS" (at 208.28 50.8 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 208.28 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Fieldname 1" "Value 1" (at 208.28 50.8 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname2" "Value2" (at 208.28 50.8 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname3" "Value3" (at 208.28 50.8 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 77709fa0-5552-487e-ab61-a7fe4568067a))
+    (pin "2" (uuid e626a429-806d-4010-91b8-e9a14f420106))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00006080c7b3"
+          (reference "C?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "C90") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 243.84 127 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 862d1967-ace5-4103-ba42-76dd81f73d1a)
+    (property "Reference" "#PWR029" (at 250.19 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 248.92 127 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 243.84 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 243.84 127 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 8ba7cded-2509-45d2-bb1a-8fe48725ddd8))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR029") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 228.6 50.8 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 88b3b609-1139-40dc-a88b-5170c83277ee)
+    (property "Reference" "#PWR09" (at 222.25 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 224.155 50.8 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 228.6 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 228.6 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid f4c94e93-311e-46e0-ad7c-8bb2013c4943))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00005f8f69d2"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "#PWR0224") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:R") (at 52.07 43.18 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8d177a97-21f2-4006-834c-31b9711170df)
+    (property "Reference" "R1" (at 44.45 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2.2k/R0402" (at 55.88 41.91 0)
+      (effects (font (size 0.9906 0.9906)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS" (at 52.07 41.402 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (at 52.07 43.18 90)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Sim.Enable" "0" (at 52.07 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 007a3c58-5ac0-4f18-9929-d25ed4213cee))
+    (pin "2" (uuid 837f2973-7f28-4e78-8e3c-bf965ced509a))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 213.36 81.28 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8ddd9450-779b-4f45-b3b8-77b720422cb1)
+    (property "Reference" "#PWR016" (at 219.71 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 217.805 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 213.36 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 213.36 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 74bed7f1-6a48-4568-8e64-ccba35c4cb8c))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00005f8f69d2"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "#PWR0223") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 233.68 81.28 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 98d238a9-1ab3-4620-aeb1-ad7dd0f642f3)
+    (property "Reference" "C4" (at 237.49 80.01 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100nF/10V/10%/X7R/C0402" (at 233.68 83.82 90)
+      (effects (font (size 0.508 0.508)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0402_5MIL_DWS" (at 233.68 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 233.68 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Fieldname 1" "Value 1" (at 233.68 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname2" "Value2" (at 233.68 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname3" "Value3" (at 233.68 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 62a51688-934c-4949-b4f8-3e7e19f1162f))
+    (pin "2" (uuid 5d533210-11d6-4632-9135-2a0910379840))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00006080c7b3"
+          (reference "C?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "C91") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+3.3V") (at 198.12 111.76 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9f175ca3-9808-4a52-a066-b5b7dc1ba77c)
+    (property "Reference" "#PWR022" (at 201.93 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 191.77 111.76 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 198.12 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 198.12 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 022fb70a-bd0c-4d97-8400-ba94a9919f27))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+5V") (at 243.84 50.8 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a1efaf79-eafc-4dd2-9568-f8c36ea65c91)
+    (property "Reference" "#PWR010" (at 240.03 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 248.92 50.8 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 243.84 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 243.84 50.8 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 54ad32e1-b16a-4a6c-8beb-b0c85b728f14))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+5V") (at 203.2 25.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a6f337f5-a05b-44e8-b62d-124d04b7cdd9)
+    (property "Reference" "#PWR03" (at 203.2 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 203.2 21.844 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 203.2 25.4 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 203.2 25.4 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 6dc5697d-7211-4976-9e8e-a06123e5e5df))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 124.46 142.24 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes)
+    (uuid aba1509f-0093-4ebf-a4f3-973a1fcbeb4c)
+    (property "Reference" "C10" (at 125.73 140.97 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "NA(22uF/6.3V/20%/X5R/C0603)" (at 121.285 151.765 90)
+      (effects (font (size 0.762 0.762)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0603_5MIL_DWS" (at 124.46 142.24 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 124.46 142.24 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 0fae1af8-e16d-4288-ab0e-f3cd65230830))
+    (pin "2" (uuid f20df2b0-89ea-493a-af0f-1a2ec26792e3))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_IC:SN74LVC2T45DCUR(VSSOP-8)") (at 220.98 91.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid acee9250-8cf6-4ea8-9141-641f7c5c5e8e)
+    (property "Reference" "U2" (at 220.98 85.09 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "SN74LVC2T45DCUR(VSSOP-8)" (at 220.98 100.33 0)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "OLIMEX_IC-FP:VSSOP-8_Pitch-0.50mm_Pad-0.25mm_Dimensions-2.30x2.00x1.00mm" (at 220.98 104.14 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 220.98 91.44 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid f696eed8-dc5c-42cd-9165-0a7a6bee3acd))
+    (pin "2" (uuid c426511f-bdb0-44f4-898a-06d07d953849))
+    (pin "3" (uuid 5a4ffe05-010a-47a6-baed-8c3cc4ba9fc4))
+    (pin "4" (uuid 0847a8e9-05dd-45d9-8a89-5db4e06d3fc9))
+    (pin "5" (uuid e88d66ea-5912-46ca-9782-c8d1b6deb766))
+    (pin "6" (uuid 24fd9c5f-9170-4440-821a-b2c381de7e75))
+    (pin "7" (uuid 304acfb1-351c-4729-b1d7-9f332c4a457c))
+    (pin "8" (uuid 922850c0-7dec-4e21-a72d-c5dcb2dedac8))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "U19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 233.68 111.76 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b9bc0de9-6bb5-406f-9e45-898cd1e36c0c)
+    (property "Reference" "C6" (at 237.49 110.49 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100nF/10V/10%/X7R/C0402" (at 233.68 114.3 90)
+      (effects (font (size 0.508 0.508)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0402_5MIL_DWS" (at 233.68 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 233.68 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Fieldname 1" "Value 1" (at 233.68 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname2" "Value2" (at 233.68 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname3" "Value3" (at 233.68 111.76 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid c8f9cdd2-2788-4777-84a8-e84ffde8af6b))
+    (pin "2" (uuid d9e4d23c-a338-40aa-b609-c4d9822e3e2d))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00006080c7b3"
+          (reference "C?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "C91") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 228.6 81.28 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bd36dcd3-724e-4777-9ad9-7c87a409f22a)
+    (property "Reference" "#PWR017" (at 222.25 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 224.155 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 228.6 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 228.6 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 809a520c-b711-4082-8c95-758926f6af74))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00005f8f69d2"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "#PWR0224") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 198.12 66.04 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c60b1d53-74ec-44c6-a1e8-a70f7d21e097)
+    (property "Reference" "#PWR013" (at 191.77 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 193.04 66.04 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 198.12 66.04 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 198.12 66.04 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 28cef805-4a51-430f-bbe6-1b4092817ab1))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:R") (at 102.87 43.18 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cd701b01-0746-4681-aaed-f9e787e933d3)
+    (property "Reference" "R2" (at 95.25 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2.2k/R0402" (at 106.68 41.91 0)
+      (effects (font (size 0.9906 0.9906)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS" (at 102.87 41.402 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (at 102.87 43.18 90)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Sim.Enable" "0" (at 102.87 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c3dff311-166b-4841-9d67-6cf5709c2a02))
+    (pin "2" (uuid 3aa22382-5905-41b2-8d72-5f0b13d8168a))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 99.06 25.4 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cdf41e23-aca6-4a8b-b161-2c34b25edb7d)
+    (property "Reference" "#PWR02" (at 99.06 19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 99.06 21.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 99.06 25.4 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 99.06 25.4 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 5886cc6d-51cf-40a3-bf51-5ff0982b29f7))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:R") (at 82.55 144.78 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cfc2c14e-7aec-423d-8435-763d402fb947)
+    (property "Reference" "R6" (at 82.55 142.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1.05k/1%/R0402" (at 82.55 147.32 0)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:R_0402_5MIL_DWS" (at 84.328 144.78 90)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Datasheet" "" (at 82.55 144.78 0)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Sim.Enable" "0" (at 82.55 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8c23a9d1-9d96-4483-a901-72b4970a0e1c))
+    (pin "2" (uuid 4fe03089-3029-4a5d-aa80-a67843827f85))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Regulators:MT3608(SOT23-6)") (at 81.28 134.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d3cc6e5a-dc17-4601-93de-24bbde790252)
+    (property "Reference" "U4" (at 81.28 130.175 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Value" "MT3608(SOT23-6)" (at 75.565 140.335 0)
+      (effects (font (size 1.016 1.016)) (justify left bottom))
+    )
+    (property "Footprint" "OLIMEX_Regulators-FP:SOT23-6" (at 82.042 130.81 0)
+      (effects (font (size 0.508 0.508)) hide)
+    )
+    (property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf" (at 83.82 134.62 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Note" "PB-Free" (at 81.28 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a060a4cd-77f9-4d6a-a2be-3b6b41ba3b2f))
+    (pin "2" (uuid 5d89fb48-3e6d-4ef5-b347-522ee6574371))
+    (pin "3" (uuid c454efd0-b8ba-4dd3-9abe-779f22d0852e))
+    (pin "4" (uuid bf3f8df5-8d99-4c8c-a29f-c153e792bf25))
+    (pin "5" (uuid 3e1864d2-2116-46d4-a335-e7dddd51e41e))
+    (pin "6" (uuid 3fc6e329-871c-490e-8915-6ea53e8bdee1))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "U4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Diodes:D_Schottky") (at 102.87 132.08 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid dc1fd521-0cb3-4596-bbf1-34754dd113d2)
+    (property "Reference" "D1" (at 107.95 130.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1N5822/SS34/SMA" (at 102.87 134.62 0)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "OLIMEX_Diodes-FP:SMA-KA" (at 102.87 132.08 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 102.87 132.08 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 8f56d1a6-a37f-4fe3-9e3b-c6d5e28986a1))
+    (pin "2" (uuid edbbecb4-fc9c-49c0-afd5-b6444b58d617))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+5V") (at 243.84 111.76 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e06b2297-1049-44a2-ad82-7aad5a661318)
+    (property "Reference" "#PWR025" (at 240.03 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 248.92 111.76 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 243.84 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 243.84 111.76 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 71a764f1-a6b0-403e-b671-0b38f3b32cfd))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 208.28 81.28 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e5a77b0e-2a88-4962-83e9-366a4b261f6a)
+    (property "Reference" "C3" (at 204.47 80.01 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100nF/10V/10%/X7R/C0402" (at 208.28 83.82 90)
+      (effects (font (size 0.508 0.508)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0402_5MIL_DWS" (at 208.28 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 208.28 81.28 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Fieldname 1" "Value 1" (at 208.28 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname2" "Value2" (at 208.28 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Fieldname3" "Value3" (at 208.28 81.28 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 2c85013b-bf56-4783-a1d5-c84e6a72605f))
+    (pin "2" (uuid 620c719f-a850-4de8-9560-08d44bcfadcf))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "iMX8MPLUS-SOM-EVB_Rev_B"
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745/00000000-0000-0000-0000-00006080c7b3"
+          (reference "C?") (unit 1)
+        )
+        (path "/8a195eb5-4f78-40ea-b009-4bf976d36745"
+          (reference "C90") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 58.42 142.24 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes)
+    (uuid e819caef-e911-4e80-a564-f75463cfe873)
+    (property "Reference" "C7" (at 59.69 140.97 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "NA(22uF/6.3V/20%/X5R/C0603)" (at 54.61 152.4 90)
+      (effects (font (size 0.762 0.762)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0603_5MIL_DWS" (at 58.42 142.24 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 58.42 142.24 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid dc929b98-fbb0-434e-98bc-068336f9576b))
+    (pin "2" (uuid 7ed86cdb-40e8-4841-b197-93a4e69c593c))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 116.84 142.24 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e8a0b1b3-01b2-4e3e-9f42-9d9cee97bb98)
+    (property "Reference" "C9" (at 118.11 140.97 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22uF/6.3V/20%/X5R/C0603" (at 113.665 149.86 90)
+      (effects (font (size 0.762 0.762)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0603_5MIL_DWS" (at 116.84 142.24 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 116.84 142.24 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 89e061c8-08b1-405f-8c1f-7a7cf64bed27))
+    (pin "2" (uuid fe021c00-f328-45f0-bb9a-db647406d94e))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:+5V") (at 99.06 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e91b9443-60fb-404d-8f41-30c00aeae047)
+    (property "Reference" "#PWR012" (at 99.06 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 99.06 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 99.06 63.5 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 99.06 63.5 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 2c7f0674-224c-4d2c-9c31-7615964db08f))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:C") (at 66.04 142.24 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e97a4927-6688-46bb-8570-4b06f62112dd)
+    (property "Reference" "C8" (at 67.31 140.97 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22uF/6.3V/20%/X5R/C0603" (at 62.865 149.86 90)
+      (effects (font (size 0.762 0.762)) (justify left))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:C_0603_5MIL_DWS" (at 66.04 142.24 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 66.04 142.24 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 1b6496ad-9817-4a6c-98b3-f7b531216a6d))
+    (pin "2" (uuid a5382135-7963-473d-8e98-b15be2eb7963))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "C8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 124.46 147.32 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid eae7ff9b-cb33-44ea-8a21-61020da890ef)
+    (property "Reference" "#PWR034" (at 124.46 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 124.46 150.876 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 124.46 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 124.46 147.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 4d474e62-8209-4e26-8186-a610dbe56e14))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR034") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_RCL:L") (at 81.28 127 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid efefc760-3020-4fbf-88ce-5c6fcf18dc8b)
+    (property "Reference" "L1" (at 81.28 119.38 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4.7uH/2.33A/DCR=70mR/20%/CD43(NRS4018T4R7MDGJ)" (at 82.55 121.92 0)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "OLIMEX_RLC-FP:CD42(43)" (at 82.55 127 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "https://eu.mouser.com/datasheet/2/396/wound04_e-1290968.pdf" (at 82.55 127 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 14b43366-c3b7-4966-9265-ad6b3f9c3f5f))
+    (pin "2" (uuid 0de2e453-1f84-40f6-ad34-761a0913acc1))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "L1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:GND") (at 243.84 66.04 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f486f175-3b88-435d-94db-4d2a34adc6fb)
+    (property "Reference" "#PWR014" (at 250.19 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 248.92 66.04 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 243.84 66.04 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 243.84 66.04 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid 69a2321f-70de-4355-beae-7c529d7581f6))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OLIMEX_Power:PWR_FLAG") (at 43.18 142.24 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f5775dab-fdae-425c-adbc-830acddfc548)
+    (property "Reference" "#FLG03" (at 43.18 139.827 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 43.18 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 43.18 142.24 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (at 43.18 142.24 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (pin "1" (uuid d65350c5-94b1-403b-8a3b-2d66309cd114))
+    (instances
+      (project "UEXT-3TO5V_Rev_A"
+        (path "/899d0d3b-51be-4ba5-897b-7c21f50b538e"
+          (reference "#FLG03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
